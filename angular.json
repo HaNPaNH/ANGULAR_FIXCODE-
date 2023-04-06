@@ -58,6 +58,12 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+
+          "options": {
+            "browserTarget": "K204041148_M6:build",
+            "proxyConfig": "src/proxy.conf.json"
+          },
+          
           "configurations": {
             "production": {
               "browserTarget": "K204041148_M6:build:production"
@@ -94,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "be88f0e2-ff2a-4081-9c5f-74b0ee8ecc26"
   }
 }
